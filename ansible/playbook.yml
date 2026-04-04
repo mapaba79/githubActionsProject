@@ -1,0 +1,7 @@
+---
+- name: Provision devops server
+  hosts: webservers
+  become: yes
+
+  roles:
+    - docker
