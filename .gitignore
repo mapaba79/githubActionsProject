@@ -1,3 +1,7 @@
 .venv/
 __pycache__/
 .pytest_cache/
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+terraform/.terraform/
